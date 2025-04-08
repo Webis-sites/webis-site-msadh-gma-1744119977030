@@ -1,8 +1,19 @@
 {
-  "projectName": "מסעדה-גמא-1677",
-  "businessName": "מסעדה גמא",
-  "created": "2025-04-08T14:14:37.719Z",
-  "status": "initialized",
-  "progress": 0,
-  "components": []
+  "timestamp": "2025-04-08T14:15:52.676Z",
+  "status": {
+    "totalComponents": 0,
+    "completedComponents": 0,
+    "failedComponents": 1,
+    "progress": 0
+  },
+  "components": [
+    {
+      "name": "Site Plan",
+      "type": "plan",
+      "status": "failed",
+      "description": "יצירת תוכנית האתר",
+      "error": "שגיאה בשירות Anthropic: Failed after 3 attempts. Last error: Overloaded"
+    }
+  ],
+  "repoName": "webis-site-msadh-gma-1744119977030"
 }
